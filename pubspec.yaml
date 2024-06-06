@@ -1,8 +1,8 @@
 name: weather_scene
-description: "A new Flutter project."
+description: "Smart Weather App"
 
 publish_to: 'none' 
-version: 1.0.0+1
+version: 1.0.0
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
@@ -12,12 +12,19 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.6
+  flutter_bloc: ^8.1.5
+  get_it: ^7.7.0
+  auto_route: ^8.1.3
+  freezed: ^2.5.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^3.0.0
+  auto_route_generator: 8.0.0
+  build_runner: ^2.4.11
+
 
 flutter:
 
